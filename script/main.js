@@ -10,7 +10,7 @@ const changeLanguage = function() {
             break;
         }
         case "eng": {
-            window.location = '/eng/index.html';
+            window.location = './eng/index.html';
             break;
         }
     }
