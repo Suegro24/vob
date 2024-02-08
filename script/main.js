@@ -1,16 +1,18 @@
 const language = document.querySelector('#language');
 const hamburger = document.querySelector('#hamburger');
 
+console.log(window.location.href);
+
 const changeLanguage = function() {
     const lang = this.value;
     
     switch(lang) {
         case "pl": {
-            window.location = '../index.html';
+            window.location.href = '/index.html';
             break;
         }
         case "eng": {
-            window.location = './eng/index.html';
+            window.location.href = '/eng/index.html';
             break;
         }
     }
