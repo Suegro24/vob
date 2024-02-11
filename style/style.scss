@@ -153,7 +153,7 @@ a {
 
 .home {
     &__container {
-        height: calc(100vh - $header_height - $footer_height);
+        min-height: calc(100vh - $header_height - $footer_height);
 
         &-small {
             flex-direction: column;
@@ -197,10 +197,6 @@ a {
                     }
                 }
             }
-        }
-
-        &__image {
-
         }
     }
 
@@ -441,6 +437,12 @@ a {
     .home {
         &__container {
             &-small {
+                padding: 0 0 20px 0;
+
+                img {
+                    width: 150px;
+                    margin: 20px 0 0 0;
+                }
                 .content {
                     width: 90%;
 
@@ -449,6 +451,18 @@ a {
                     }
                 }
             }
+        }
+    }
+
+    .details {
+        &__container {
+            padding: 6px 16px;
+            
+        }
+
+        &__text {
+            text-align: center;
+            font-size: .875rem;
         }
     }
 
