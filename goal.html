@@ -15,7 +15,12 @@
                 <a href="index.html"><img src="./images/logo.png" alt="logo" width="110px"></a>
             </div>
             <div class="menu">
-                <ul class="menu-list flex">
+                <div id="hamburger" class="hamburger">
+                    <span class="hamburger__line"></span>
+                    <span class="hamburger__line"></span>
+                    <span class="hamburger__line"></span>
+                </div>
+                <ul id="menu" class="menu-list flex">
                     <li class="list__item">
                         <select id="language" class="language">
                             <option value="pl" selected>PL</option>
@@ -93,10 +98,10 @@
                             <b class="text--bold text--blue">dowolne urządzenie</b> kompaktowe typu kamera, lampa, czujnik dymu, włącznik światła; lub zamontować dowolny rodzaj złącza
                             jak HDMI, USB, antenowe, gniazdko elektyczne itp.
                         </p>
-                        <img class="details__image-one" src="./images/vob-block.png" alt="vob" width="350px">
+                        <img class="details__image details__image-one" src="./images/vob-block.png" alt="vob" width="350px">
                     </div>
                     <div class="details__container-small flex">
-                        <img class="details__image-two" src="./images/vob-items.png" alt="vob" width="350px">
+                        <img class="details__image details__image-two" src="./images/vob-items.png" alt="vob" width="350px">
                         <p class="details__text text--white">
                             Wszystkie najważniejsze elementy do stworzenia systemu VOB są  <b class="text--bold text--blue">dostępne na rynku</b>. Dzięki temu wdrożenie technologii VOB nie będzie tak drogie i czasochłonne. Elementem zarządzającym
                             wszystkimi urządzeniami w instalacji jest centrala VOB. Jedna centrala wykonuje te same funkcję co wszystkie inne razem wzięte w klasycznych systemach.
@@ -110,26 +115,6 @@
                     </div>
 
                 </div>
-            </section>
-            <section class="section others">
-                <h2 class="section__title">Co mówią o nas eksperci</h2>
-                <ul class="others__list">
-                    <li class="others__list-item">
-                        <p class="others__quote text--white">"Pracuję w tej firmie 30 lat, ale takiego przekroju kabla jeszcze nie widziałem"</p>
-                        <p class="others__stars">★ ★ ★ ★ ★</p>
-                        <p class="others__employee text--white">Rafał Bodzoń</br>Kierownik Zespołu Technologicznego ds. Kabli Telekomunikacyjnych i Światłowodowych w firmie TF Kabel</p>
-                    </li>
-                    <li class="others__list-item">
-                        <p class="others__quote text--white">"Myślałem, że przyjdzie do mnie z jakimś ulepszeniem, a to jest rewolucja"</p>
-                        <p class="others__stars">★ ★ ★ ★ ★</p>
-                        <p class="others__employee text--white">Piotr Okarmus</br>Rzecznik patentowy</p>
-                    </li>
-                    <li class="others__list-item">
-                        <p class="others__quote text--white">"Najwięksi giganci sprzętów elektrycznych dążą do podłączenia wszystkich urządzeń do Internetu. A to jest najlepszy sposób. To rozwiązanie to kwestia czasu"</p>
-                        <p class="others__stars">★ ★ ★ ★ ★</p>
-                        <p class="others__employee text--white">Dr inż. Mariusz Skoczylas</br>adiunkt Politechniki Rzeszowskiej</p>
-                    </li>
-                </ul>
             </section>
         </main>
         <footer class="footer flex">

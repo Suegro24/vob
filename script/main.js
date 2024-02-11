@@ -20,7 +20,10 @@ const changeLanguage = function() {
 
 const switchMenu = function() {
     const menu = document.querySelector('#menu');
-    menu.style.display = 'flex';
+    var isOpen = hamburger.classList.contains('hamburger-open');
+
+    isOpen ? menu.style.display = 'none' : menu.style.display = 'flex';
+    hamburger.classList.toggle('hamburger-open');
 }
 
 language.addEventListener('change', changeLanguage, false);

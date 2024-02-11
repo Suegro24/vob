@@ -15,7 +15,12 @@
                 <a href="index.html"><img src="./images/logo.png" alt="logo" width="110px"></a>
             </div>
             <div class="menu">
-                <ul class="menu-list flex">
+                <div id="hamburger" class="hamburger">
+                    <span class="hamburger__line"></span>
+                    <span class="hamburger__line"></span>
+                    <span class="hamburger__line"></span>
+                </div>
+                <ul id="menu" class="menu-list flex">
                     <li class="list__item">
                         <select id="language" class="language">
                             <option value="pl" selected>PL</option>
@@ -32,21 +37,30 @@
         <main>
             <section class="section contact">
                 <h1 class="section__title">Kontakt</h1>
-                <div class="flex contact__container">
-                    <div class="contact__container-item">
-                        <p class="text--bold">Mariusz Czado</p>
-                        <p>+48 534 948 317</p>
-                        <p>mariusz.czado@vobconnect.eu</p>
+                <div class="contact__container flex">
+                    <div class="flex contact__management">
+                        <div class="contact__management-item">
+                            <p class="text--bold">Mariusz Czado</p>
+                            <p>+48 534 948 317</p>
+                            <p>mariusz.czado@vobconnect.eu</p>
+                        </div>
+                        <div class="contact__management-item">
+                            <p class="text--bold">Mateusz Znamirowski</p>
+                            <p></p>
+                            <p>mateusz.znamirowski@vobconnect.eu</p>
+                        </div>
+                        <div class="contact__management-item">
+                            <p class="text--bold">Damian Czado</p>
+                            <p></p>
+                            <p>damian.czado@vobconnect.eu</p>
+                        </div>
                     </div>
-                    <div class="contact__container-item">
-                        <p class="text--bold">Mateusz Znamirowski</p>
-                        <p></p>
-                        <p>mateusz.znamirowski@vobconnect.eu</p>
-                    </div>
-                    <div class="contact__container-item">
-                        <p class="text--bold">Damian Czado</p>
-                        <p></p>
-                        <p>damian.czado@vobconnect.eu</p>
+                    <div class="contact__localization">
+                        <p>VOBCONNECT Sp. z o.o.</p>
+                        <p>Adres: Kraczkowa 723, 37-124 Kraczkowa</p>
+                        <p>NIP: 8151818375</p>
+                        <p>REGON: 526965670</p>
+                        <p>KRS: 0001069694</p>
                     </div>
                 </div>
             </section>
